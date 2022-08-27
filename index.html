@@ -1,15 +1,46 @@
-<!DOCTYPE html>
-<html lang="en-us">
+<!DOCTYPE HTML>
+<html>
 	<head>
-		<title>First Saturday Class</title>
-
-		<link rel="stylesheet" href="reset.css">
-		<link rel="stylesheet" type="text/css" href="style.css">
+		<title>Kelvin Tiongson</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
+	<body class="is-preload">
+		<div id="wrapper">
+			<div id="bg"></div>
+			<div id="overlay"></div>
+			<div id="main">
 
-	<body>
-		<h1>About Me</h1>
+				<!-- Header -->
+					<header id="header">
+						<img id="home-pic" src="./assets/css/images/me.jpg" alt="profile pic"/>
+						<h1>Kelvin Tiongson</h1>
+						<p>Data Science &nbsp;&bull;&nbsp; Machine Learning &nbsp;&bull;&nbsp; Software Development</p>
+						<p>Recent MS in Data Science concentrated in Computer Science<br/>Currently a Full Stack Developer located in the Chicagoland area</p>
+						<nav>
+							<ul>
+								<li><a href="https://www.linkedin.com/in/kelvin-tiongson-8a207113b" target="_blank" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+								<!-- <li><a href="./aboutme.html" class="icon brands fa-dribbble"><span class="label">Dribble</span></a></li> -->
+								<li><a href="https://github.com/tiongsonkj" target="_blank" class="icon brands fa-github"><span class="label">Github</span></a></li>
+								<li><a href="https://twitter.com/kt_305" target="_blank" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="mailto: kelvintiongson30@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+							</ul>
+						</nav>
+					</header>
 
-		<p>Welcome to my page.</p>
+				<!-- Footer -->
+					<!-- <footer id="footer">
+						<span class="copyright">&copy; Untitled. Design: <a href="http://html5up.net">HTML5 UP</a>.</span>
+					</footer> -->
+
+			</div>
+		</div>
+		<script>
+			window.onload = function() { document.body.classList.remove('is-preload'); }
+			window.ontouchmove = function() { return false; }
+			window.onorientationchange = function() { document.body.scrollTop = 0; }
+		</script>
 	</body>
 </html>

@@ -1,0 +1,109 @@
+#aboutmebody {
+    background-color: #333333;
+}
+
+#back {
+    margin-left: 100px;
+    margin-top: 50px;
+}
+#back a {
+    color: white;
+}
+#back a:hover {
+    color: grey;
+}
+#back a svg {
+    height: 40px;
+    width: 50px;
+}
+
+#aboutme {
+    color: white;
+    /* font-family: 'Raleway', sans-serif; */
+	font-family: 'Source Sans Pro', sans-serif;
+    width: 100%;
+    margin-top: 40px;
+}
+
+#skills {
+    margin-bottom: 100px;
+}
+
+.card-body {
+    height: 200px; 
+}
+
+.card-body ul {
+    padding: 0;
+}
+
+.card-body ul li {
+    list-style-type: none;
+    text-align: center;
+}
+
+img {
+    width: 350px;
+    border-radius: 50%;
+}
+
+hr {
+    max-width: 50px;
+    border-width: 3px;
+    border-color: goldenrod;
+}
+
+/* Wrapper */
+
+@-moz-keyframes wrapper {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes wrapper {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes wrapper {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes wrapper {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+#wrapper {
+    -moz-animation: wrapper 3s forwards;
+    -webkit-animation: wrapper 3s forwards;
+    -ms-animation: wrapper 3s forwards;
+    animation: wrapper 3s forwards;
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
